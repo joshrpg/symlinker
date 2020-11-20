@@ -20,8 +20,14 @@
             "args": [
                 "publish",
                 "${workspaceFolder}/src/symlinker.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "--runtime",
+                "win-x64",
+                "--configuration",
+                "Release",
+                "-p:GenerateFullPaths=true",
+                "-p:PublishSingleFile=true",
+                "-p:PublishTrimmed=true",
+                "--self-contained"
             ],
             "problemMatcher": "$msCompile"
         },
