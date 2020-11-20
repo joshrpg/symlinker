@@ -31,7 +31,7 @@ namespace link
                 ),
                 new Option(
                     aliases: new [] {"--force", "-f"}
-                    , description: "Forces symlinker to override an existing link, this will also override an existing file or folder. I'm too lazy to check if it is actaully a link. ^_^"
+                    , description: "Forces symlinker to override an existing link. This will also override an existing file or folder. I'm too lazy to check if it is a link. ^_^"
                 ),
                 new Option(
                     aliases: new string[] {"--link", "-l"}
